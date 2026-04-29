@@ -75,6 +75,28 @@
   /* Let buttons size naturally */
 }
 
+.btn-outline.linkedin-btn {
+  color: #0a66c2;
+  border-color: #0a66c2;
+}
+
+.btn-outline.linkedin-btn:hover {
+  background-color: #0a66c2;
+  color: #ffffff;
+  border-color: #0a66c2;
+}
+
+.btn-outline.youtube-btn {
+  color: #FF0000;
+  border-color: #FF0000;
+}
+
+.btn-outline.youtube-btn:hover {
+  background-color: #FF0000;
+  color: #ffffff;
+  border-color: #FF0000;
+}
+
 @media (max-width: 992px) {
   .about-content {
     grid-template-columns: 1fr;

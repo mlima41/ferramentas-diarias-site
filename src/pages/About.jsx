@@ -38,10 +38,10 @@ function About() {
             <div className="about-social">
               <h3>Minhas Redes</h3>
               <div className="social-buttons">
-                <a href={profile.social.linkedin} target="_blank" rel="noopener noreferrer" className="btn btn-outline social-btn">
+                <a href={profile.social.linkedin} target="_blank" rel="noopener noreferrer" className="btn btn-outline social-btn linkedin-btn">
                   <Linkedin size={20} /> LinkedIn
                 </a>
-                <a href={profile.social.youtube} target="_blank" rel="noopener noreferrer" className="btn btn-outline social-btn">
+                <a href={profile.social.youtube} target="_blank" rel="noopener noreferrer" className="btn btn-outline social-btn youtube-btn">
                   <Youtube size={20} /> YouTube
                 </a>
               </div>
