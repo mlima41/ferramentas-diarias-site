@@ -184,6 +184,15 @@ export const siteData = {
       imageUrl: "/planilha-mrp.png",
       videoUrl: "",
       downloadUrl: "https://docs.google.com/spreadsheets/d/1rQ2hp1YACsKoYAqC2fRQGblV11APHGOG/edit?usp=sharing&ouid=116149039059210118325&rtpof=true&sd=true"
+    },
+    {
+      id: 5,
+      title: "Planilha para Planejamento de Compras",
+      category: "Planilhas",
+      shortDescription: "Organize requisições, gerencie cotações e tenha controle total do seu setor de suprimentos com esta ferramenta.",
+      imageUrl: "https://img.youtube.com/vi/z_8sCONKjlI/maxresdefault.jpg",
+      videoUrl: "https://www.youtube.com/embed/z_8sCONKjlI",
+      downloadUrl: "https://docs.google.com/spreadsheets/d/1rQ2hp1YACsKoYAqC2fRQGblV11APHGOG/edit?usp=sharing&ouid=116149039059210118325&rtpof=true&sd=true"
     }
   ]
 };
