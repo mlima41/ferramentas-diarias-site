@@ -151,21 +151,12 @@ export const siteData = {
   freeMaterials: [
     {
       id: 1,
-      title: "Planilha de Precificação Automática",
+      title: "Planilha Plano e Planejamento de Produção",
       category: "Planilhas",
-      shortDescription: "Calcule o preço de venda ideal dos seus produtos e serviços com base nos seus custos fixos e margem de lucro desejada.",
-      imageUrl: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      videoUrl: "",
-      downloadUrl: "https://example.com/download/planilha-precificacao"
-    },
-    {
-      id: 2,
-      title: "E-book: Como Organizar o Fluxo de Caixa",
-      category: "E-books",
-      shortDescription: "Guia completo em PDF com o passo a passo para pequenas e médias empresas estruturarem seu financeiro sem dores de cabeça.",
-      imageUrl: "",
-      videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-      downloadUrl: "https://example.com/download/ebook-fluxo-caixa"
+      shortDescription: "Ferramenta em Excel focada na estruturação e no controle estratégico da sua produção diária.",
+      imageUrl: "https://img.youtube.com/vi/yIN9M2kaB5k/maxresdefault.jpg",
+      videoUrl: "https://www.youtube.com/embed/yIN9M2kaB5k",
+      downloadUrl: "https://drive.google.com/file/d/1drb533_0ow_NP0ywddrQ9dwH7Bpkv0S0/view?usp=sharing"
     }
   ]
 };
