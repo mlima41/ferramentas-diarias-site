@@ -166,6 +166,15 @@ export const siteData = {
       imageUrl: "/planilha-vendas.png",
       videoUrl: "",
       downloadUrl: "https://docs.google.com/spreadsheets/d/1igS4uYdP2ANi8d785YqpU78M77utMtyV/edit?usp=sharing&ouid=116149039059210118325&rtpof=true&sd=true"
+    },
+    {
+      id: 3,
+      title: "Planilha Curva ABC",
+      category: "Planilhas",
+      shortDescription: "Classifique estrategicamente seus produtos, clientes e estoque de forma automática usando a metodologia da Curva ABC.",
+      imageUrl: "https://img.youtube.com/vi/ntMXsN34bu0/maxresdefault.jpg",
+      videoUrl: "https://www.youtube.com/embed/ntMXsN34bu0",
+      downloadUrl: "https://docs.google.com/spreadsheets/d/1igS4uYdP2ANi8d785YqpU78M77utMtyV/edit?usp=sharing&ouid=116149039059210118325&rtpof=true&sd=true"
     }
   ]
 };
