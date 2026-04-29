@@ -193,6 +193,15 @@ export const siteData = {
       imageUrl: "https://img.youtube.com/vi/z_8sCONKjlI/maxresdefault.jpg",
       videoUrl: "https://www.youtube.com/embed/z_8sCONKjlI",
       downloadUrl: "https://docs.google.com/spreadsheets/d/1rQ2hp1YACsKoYAqC2fRQGblV11APHGOG/edit?usp=sharing&ouid=116149039059210118325&rtpof=true&sd=true"
+    },
+    {
+      id: 6,
+      title: "Sistema PCP Demo - Desktop",
+      category: "Sistemas",
+      shortDescription: "Versão de demonstração gratuita do nosso Sistema PCP para desktop. Baixe, instale e teste na prática.",
+      imageUrl: "/sistema-pcp-demo.png",
+      videoUrl: "",
+      downloadUrl: "https://drive.google.com/file/d/1pE-mKtrS4WccS-gJh8teKMQ8Co4xp1dD/view?usp=sharing"
     }
   ]
 };
