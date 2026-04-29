@@ -147,5 +147,25 @@ export const siteData = {
       videoUrl: "https://app.powerbi.com/view?r=eyJrIjoiNTMxYTA0MTItMjZjMC00ODZkLWEwZjYtNDk2NWJjMzgzYmZjIiwidCI6ImEwNmEwN2U3LWY1ZDktNGRiMi05YjM3LTMzNTVhYzY1NzU4ZiJ9",
       technologies: ["Power BI", "Modelagem", "DAX"]
     }
+  ],
+  freeMaterials: [
+    {
+      id: 1,
+      title: "Planilha de Precificação Automática",
+      category: "Planilhas",
+      shortDescription: "Calcule o preço de venda ideal dos seus produtos e serviços com base nos seus custos fixos e margem de lucro desejada.",
+      imageUrl: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      videoUrl: "",
+      downloadUrl: "https://example.com/download/planilha-precificacao"
+    },
+    {
+      id: 2,
+      title: "E-book: Como Organizar o Fluxo de Caixa",
+      category: "E-books",
+      shortDescription: "Guia completo em PDF com o passo a passo para pequenas e médias empresas estruturarem seu financeiro sem dores de cabeça.",
+      imageUrl: "",
+      videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      downloadUrl: "https://example.com/download/ebook-fluxo-caixa"
+    }
   ]
 };

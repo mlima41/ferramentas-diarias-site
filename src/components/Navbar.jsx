@@ -43,6 +43,7 @@ function Navbar() {
           <Link to="/" className={`nav-link ${location.pathname === '/' ? 'active' : ''}`}>Home</Link>
           <Link to="/sobre" className={`nav-link ${location.pathname === '/sobre' ? 'active' : ''}`}>Sobre</Link>
           <Link to="/servicos-e-projetos" className={`nav-link ${location.pathname === '/servicos-e-projetos' ? 'active' : ''}`}>Serviços & Projetos</Link>
+          <Link to="/materiais-gratuitos" className={`nav-link ${location.pathname === '/materiais-gratuitos' ? 'active' : ''}`}>Materiais Gratuitos</Link>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -57,6 +58,7 @@ function Navbar() {
           <Link to="/" className={`mobile-nav-link ${location.pathname === '/' ? 'active' : ''}`}>Home</Link>
           <Link to="/sobre" className={`mobile-nav-link ${location.pathname === '/sobre' ? 'active' : ''}`}>Sobre</Link>
           <Link to="/servicos-e-projetos" className={`mobile-nav-link ${location.pathname === '/servicos-e-projetos' ? 'active' : ''}`}>Serviços & Projetos</Link>
+          <Link to="/materiais-gratuitos" className={`mobile-nav-link ${location.pathname === '/materiais-gratuitos' ? 'active' : ''}`}>Materiais Gratuitos</Link>
         </nav>
       </div>
     </header>

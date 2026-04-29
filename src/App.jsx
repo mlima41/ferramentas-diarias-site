@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
+import FreeMaterials from './pages/FreeMaterials';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/sobre" element={<About />} />
             <Route path="/servicos-e-projetos" element={<Services />} />
+            <Route path="/materiais-gratuitos" element={<FreeMaterials />} />
           </Routes>
         </main>
         <Footer />

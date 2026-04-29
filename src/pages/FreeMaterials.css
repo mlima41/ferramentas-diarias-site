@@ -1,0 +1,41 @@
+.materials-page {
+  min-height: calc(100vh - 80px);
+}
+
+.materials-header {
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.page-subtitle {
+  max-width: 800px;
+  margin: 1.5rem auto 0;
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.materials-grid-section {
+  padding-top: 0;
+}
+
+.materials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 4rem;
+  background: var(--bg-card);
+  border: 1px dashed var(--border-color);
+  border-radius: 1rem;
+  color: var(--text-muted);
+}
+
+@media (max-width: 768px) {
+  .materials-grid {
+    grid-template-columns: 1fr;
+  }
+}
