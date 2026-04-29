@@ -157,6 +157,15 @@ export const siteData = {
       imageUrl: "https://img.youtube.com/vi/yIN9M2kaB5k/maxresdefault.jpg",
       videoUrl: "https://www.youtube.com/embed/yIN9M2kaB5k",
       downloadUrl: "https://drive.google.com/file/d/1drb533_0ow_NP0ywddrQ9dwH7Bpkv0S0/view?usp=sharing"
+    },
+    {
+      id: 2,
+      title: "Planilha Gestão de Vendas",
+      category: "Planilhas",
+      shortDescription: "Planilha completa para registrar, acompanhar a evolução e analisar o desempenho das suas vendas mensais.",
+      imageUrl: "/planilha-vendas.png",
+      videoUrl: "",
+      downloadUrl: "https://docs.google.com/spreadsheets/d/1igS4uYdP2ANi8d785YqpU78M77utMtyV/edit?usp=sharing&ouid=116149039059210118325&rtpof=true&sd=true"
     }
   ]
 };
