@@ -175,6 +175,15 @@ export const siteData = {
       imageUrl: "https://img.youtube.com/vi/ntMXsN34bu0/maxresdefault.jpg",
       videoUrl: "https://www.youtube.com/embed/ntMXsN34bu0",
       downloadUrl: "https://docs.google.com/spreadsheets/d/1igS4uYdP2ANi8d785YqpU78M77utMtyV/edit?usp=sharing&ouid=116149039059210118325&rtpof=true&sd=true"
+    },
+    {
+      id: 4,
+      title: "Planilha MRP",
+      category: "Planilhas",
+      shortDescription: "Plano de produção e controle de materiais (MRP) para garantir que sua linha nunca pare por falta de insumos.",
+      imageUrl: "/planilha-mrp.png",
+      videoUrl: "",
+      downloadUrl: "https://docs.google.com/spreadsheets/d/1rQ2hp1YACsKoYAqC2fRQGblV11APHGOG/edit?usp=sharing&ouid=116149039059210118325&rtpof=true&sd=true"
     }
   ]
 };
