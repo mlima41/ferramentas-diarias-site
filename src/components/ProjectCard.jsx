@@ -32,6 +32,7 @@ function ProjectCard({ project }) {
         </p>
 
         <button 
+          type="button"
           className="btn-expand" 
           onClick={() => setIsExpanded(!isExpanded)}
           style={{ background: 'none', border: 'none', color: 'var(--accent-primary)', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '0.5rem', padding: '0', marginBottom: isExpanded ? '1rem' : 'auto', fontWeight: '600', fontSize: '0.9rem' }}
@@ -44,7 +45,7 @@ function ProjectCard({ project }) {
         </button>
 
         {isExpanded && (
-          <div className="project-desc-expanded" style={{ animation: 'fadeIn 0.3s ease', marginBottom: '1.5rem', paddingTop: '1rem', borderTop: '1px solid var(--border-color)' }}>
+          <div className="project-desc-expanded" style={{ marginBottom: '1.5rem', paddingTop: '1rem', borderTop: '1px solid var(--border-color)' }}>
             {project.description.split('\n').map((line, index) => (
               <p key={index} style={{ marginBottom: line.trim() === '' ? '0' : '0.5rem', minHeight: line.trim() === '' ? '0.5rem' : 'auto', color: 'var(--text-muted)', fontSize: '0.9rem' }}>
                 {line}
