@@ -2,7 +2,7 @@ export const siteData = {
   profile: {
     siteName: "Ferramentas Diárias",
     name: "Marcelo Martins",
-    role: "Especialista em desenvolvimento de soluções personalizadas",
+    role: "Especialista em desenvolvimento de soluções",
     headline: "Automatizando processos, organizando dados e impulsionando decisões.",
     bio: [
       "O Ferramentas Diárias é uma plataforma dedicada ao desenvolvimento de soluções práticas para o dia a dia das empresas. O objetivo é criar ferramentas que apoiem e otimizem rotinas em diferentes áreas, como financeiro, industrial, logística e controles operacionais em geral.",
