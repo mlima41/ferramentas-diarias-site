@@ -37,13 +37,6 @@ function Services() {
               <ProjectCard key={project.id} project={project} />
             ))}
           </div>
-
-          <h2 className="section-title" style={{ marginTop: '5rem' }}>Projetos de Dados Power BI</h2>
-          <div className="projects-grid-full">
-            {siteData.projects.filter(p => p.category === 'dados').map(project => (
-              <ProjectCard key={project.id} project={project} />
-            ))}
-          </div>
         </div>
       </section>
     </div>

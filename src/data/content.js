@@ -58,16 +58,6 @@ export const siteData = {
   ],
   projects: [
     {
-      id: 1,
-      title: "Dashboard Financeiro",
-      category: "dados",
-      shortDescription: "Modelo de Power BI para análise e acompanhamento financeiro.",
-      description: "Painel interativo desenvolvido no Power BI focado na gestão financeira. Permite acompanhar de perto os indicadores de receita, despesas e saúde geral do negócio para tomada de decisão.",
-      imageUrl: "",
-      videoUrl: "https://app.powerbi.com/view?r=eyJrIjoiZGZkNDY5OWUtNjNjZC00YjdlLTk2ZGEtNjA4OWQ2YzFhNGZkIiwidCI6ImEwNmEwN2U3LWY1ZDktNGRiMi05YjM3LTMzNTVhYzY1NzU4ZiJ9",
-      technologies: ["Power BI", "DAX", "Modelagem Financeira"]
-    },
-    {
       id: 2,
       title: "Sistema de Gestão Financeira",
       category: "sistemas",
@@ -126,26 +116,6 @@ export const siteData = {
       imageUrl: "https://img.youtube.com/vi/8cbjSB_7N6c/maxresdefault.jpg",
       videoUrl: "https://www.youtube.com/embed/8cbjSB_7N6c",
       technologies: ["Excel", "VBA", "Gestão Industrial"]
-    },
-    {
-      id: 4,
-      title: "Dashboard Comercial",
-      category: "dados",
-      shortDescription: "Modelo de Power BI para análise de vendas e metas.",
-      description: "Painel focado na área comercial, permitindo o acompanhamento do desempenho de vendas, atingimento de metas, análise de produtos e performance da equipe comercial.",
-      imageUrl: "",
-      videoUrl: "https://app.powerbi.com/view?r=eyJrIjoiZTEyOTM0YmEtYmU0ZS00MDc0LWE4NTgtMzk2MjU3YTI2MDVkIiwidCI6ImEwNmEwN2U3LWY1ZDktNGRiMi05YjM3LTMzNTVhYzY1NzU4ZiJ9",
-      technologies: ["Power BI", "DAX", "Gestão de Vendas"]
-    },
-    {
-      id: 5,
-      title: "Análise Financeira Avançada",
-      category: "dados",
-      shortDescription: "Modelo de Power BI complementar para controle financeiro.",
-      description: "Dashboard interativo com foco em métricas financeiras detalhadas, proporcionando uma visão profunda de custos, receitas e projeções para planejamento estratégico.",
-      imageUrl: "",
-      videoUrl: "https://app.powerbi.com/view?r=eyJrIjoiNTMxYTA0MTItMjZjMC00ODZkLWEwZjYtNDk2NWJjMzgzYmZjIiwidCI6ImEwNmEwN2U3LWY1ZDktNGRiMi05YjM3LTMzNTVhYzY1NzU4ZiJ9",
-      technologies: ["Power BI", "Modelagem", "DAX"]
     }
   ],
   freeMaterials: [
