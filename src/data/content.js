@@ -68,6 +68,16 @@ export const siteData = {
       technologies: ["Power BI", "Logística", "Gestão de Dados"]
     },
     {
+      id: 11,
+      title: "Industrial Performance Dashboard",
+      category: "dados",
+      shortDescription: "Monitoramento de eficiência fabril, produtividade e controle de perdas.",
+      description: "Painel completo para gestão industrial, focado no acompanhamento de OEE, produtividade por linha de produção e análise detalhada de paradas e desperdícios.\n\n✅ Indicadores de Eficiência (OEE)\n✅ Controle de produção em tempo real\n✅ Análise de paradas e causas raiz\n✅ Gestão visual para chão de fábrica",
+      imageUrl: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=800",
+      demoUrl: "https://bi-producao.vercel.app/",
+      technologies: ["Power BI", "Indústria 4.0", "Gestão de Produção"]
+    },
+    {
       id: 2,
       title: "Sistema de Gestão Financeira",
       category: "sistemas",
