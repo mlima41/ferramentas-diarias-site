@@ -78,6 +78,16 @@ export const siteData = {
       technologies: ["Power BI", "Indústria 4.0", "Gestão de Produção"]
     },
     {
+      id: 12,
+      title: "Fleet Control & Intelligence",
+      category: "dados",
+      shortDescription: "Gestão estratégica de frotas, controle de custos e monitoramento de desempenho.",
+      description: "Solução completa para controle de frotas, permitindo o acompanhamento de consumo de combustível, manutenção preventiva, sinistros e performance de motoristas.\n\n✅ Gestão de custos por veículo/km\n✅ Controle de manutenções e alertas\n✅ Monitoramento de consumo e rotas\n✅ Inteligência aplicada à eficiência logística",
+      imageUrl: "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&q=80&w=800",
+      demoUrl: "https://bi-controle-de-frotas.vercel.app/",
+      technologies: ["Power BI", "Logística", "Gestão de Frotas"]
+    },
+    {
       id: 2,
       title: "Sistema de Gestão Financeira",
       category: "sistemas",
