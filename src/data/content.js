@@ -58,6 +58,16 @@ export const siteData = {
   ],
   projects: [
     {
+      id: 10,
+      title: "Logistics Performance Dashboard",
+      category: "dados",
+      shortDescription: "Análise de desempenho operacional e eficiência de entregas.",
+      description: "Dashboard avançado para gestão logística, permitindo monitorar o Total de Entregas, Entregas no Prazo, Atrasos e Custo Logístico por região e transportadora.\n\n✅ Visão clara de KPIs operacionais\n✅ Filtros dinâmicos por período e região\n✅ Análise de evolução mensal das entregas\n✅ Monitoramento de eficiência de transporte",
+      imageUrl: "/logistics-dashboard.png",
+      demoUrl: "https://bi-logistico.vercel.app/",
+      technologies: ["Power BI", "Logística", "Gestão de Dados"]
+    },
+    {
       id: 2,
       title: "Sistema de Gestão Financeira",
       category: "sistemas",
