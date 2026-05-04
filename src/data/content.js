@@ -88,6 +88,16 @@ export const siteData = {
       technologies: ["Power BI", "Logística", "Gestão de Frotas"]
     },
     {
+      id: 13,
+      title: "Contact Center Intelligence",
+      category: "dados",
+      shortDescription: "Monitoramento de KPIs de atendimento, performance de equipe e satisfação.",
+      description: "Dashboard estratégico para gestão de contact centers, permitindo acompanhar o TMA (Tempo Médio de Atendimento), TME (Tempo Médio de Espera), Nível de Serviço e indicadores de produtividade por agente.\n\n✅ Visão em tempo real de filas e chamadas\n✅ Performance detalhada por equipe e agente\n✅ Controle de SLAs e Nível de Serviço\n✅ Análise de motivos de contato e resolutividade",
+      imageUrl: "https://images.unsplash.com/photo-1549923746-c502d488b3ea?auto=format&fit=crop&q=80&w=800",
+      demoUrl: "https://bi-contact-center.vercel.app/",
+      technologies: ["Power BI", "Customer Experience", "Gestão de Atendimento"]
+    },
+    {
       id: 2,
       title: "Sistema de Gestão Financeira",
       category: "sistemas",
