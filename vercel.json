@@ -1,3 +1,6 @@
 {
-  "name": "ferramentas-diarias-site"
+  "name": "ferramentas-diarias-site",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }
