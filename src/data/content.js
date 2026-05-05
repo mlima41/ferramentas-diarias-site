@@ -108,6 +108,16 @@ export const siteData = {
       technologies: ["Power BI", "Sales", "Business Intelligence"]
     },
     {
+      id: 15,
+      title: "Gestão de Escala e Absenteísmo",
+      category: "dados",
+      shortDescription: "Análise de presença, faltas, escalas de trabalho e impacto na operação.",
+      description: "Solução completa para gestão de workforce, permitindo monitorar índices de absenteísmo por setor, motivos de falta, aderência à escala e impacto financeiro das ausências.\n\n✅ Controle de faltas e atrasos\n✅ Gestão de escalas e disponibilidade\n✅ Análise de turnover e clima organizacional\n✅ Insights para redução de custos com horas extras",
+      imageUrl: "https://images.unsplash.com/photo-1554224155-1696413565d3?auto=format&fit=crop&q=80&w=800",
+      demoUrl: "https://bi-gestao-absenteismo.vercel.app/",
+      technologies: ["Power BI", "Workforce Management", "Recursos Humanos"]
+    },
+    {
       id: 2,
       title: "Sistema de Gestão Financeira",
       category: "sistemas",
