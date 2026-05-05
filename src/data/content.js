@@ -98,6 +98,16 @@ export const siteData = {
       technologies: ["Power BI", "Customer Experience", "Gestão de Atendimento"]
     },
     {
+      id: 14,
+      title: "Sales Intelligence",
+      category: "dados",
+      shortDescription: "Análise estratégica de vendas, metas, performance comercial e tendências.",
+      description: "Dashboard completo para gestão de vendas, permitindo o acompanhamento de faturamento, margem, atingimento de metas e performance de vendedores por região e categoria.\n\n✅ Visão 360º do funil de vendas\n✅ Análise de crescimento (YoY/MoM)\n✅ Ranking de performance por vendedor/produto\n✅ Projeções e tendências comerciais",
+      imageUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
+      demoUrl: "https://bi-gestao-vendas.vercel.app/",
+      technologies: ["Power BI", "Sales", "Business Intelligence"]
+    },
+    {
       id: 2,
       title: "Sistema de Gestão Financeira",
       category: "sistemas",
