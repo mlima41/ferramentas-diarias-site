@@ -118,6 +118,16 @@ export const siteData = {
       technologies: ["Power BI", "Workforce Management", "Recursos Humanos"]
     },
     {
+      id: 16,
+      title: "Monitoramento de Liquidez e Fluxo de Caixa",
+      category: "dados",
+      shortDescription: "Visão estratégica da saúde financeira, disponibilidades e projeções de caixa.",
+      description: "Dashboard avançado focado na tesouraria, permitindo acompanhar o fluxo de caixa diário, índices de liquidez corrente e imediata, além de projeções de entradas e saídas para garantir a solvência do negócio.\n\n✅ Análise de Liquidez (Corrente/Imediata)\n✅ Fluxo de Caixa Realizado vs Orçado\n✅ Projeção de saldos e necessidades de capital\n✅ Monitoramento de prazos médios de recebimento e pagamento",
+      imageUrl: "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&q=80&w=800",
+      demoUrl: "https://bi-financeiro-seven.vercel.app/",
+      technologies: ["Power BI", "Finanças", "Tesouraria"]
+    },
+    {
       id: 2,
       title: "Sistema de Gestão Financeira",
       category: "sistemas",
