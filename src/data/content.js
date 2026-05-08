@@ -128,6 +128,16 @@ export const siteData = {
       technologies: ["Power BI", "Finanças", "Tesouraria"]
     },
     {
+      id: 17,
+      title: "Controle de Compras & Suprimentos",
+      category: "dados",
+      shortDescription: "Gestão estratégica de compras, performance de fornecedores e economia (Saving).",
+      description: "Solução completa para o setor de compras, permitindo monitorar o volume de aquisições, prazos de entrega, lead time de fornecedores e o saving gerado nas negociações.\n\n✅ Análise de Volume de Compras por Categoria\n✅ Monitoramento de Saving (Economia Gerada)\n✅ Performance e Compliance de Fornecedores\n✅ Gestão de Prazos e Lead Time de Entrega",
+      imageUrl: "https://images.unsplash.com/photo-1580674285054-bed31e145f59?auto=format&fit=crop&q=80&w=800",
+      demoUrl: "https://bi-compras.vercel.app/",
+      technologies: ["Power BI", "Suprimentos", "Procurement"]
+    },
+    {
       id: 2,
       title: "Sistema de Gestão Financeira",
       category: "sistemas",
