@@ -45,7 +45,7 @@ function ProjectCard({ project }) {
         </button>
 
         {isExpanded && (
-          <div className="project-desc-expanded" style={{ marginBottom: '1.5rem', paddingTop: '1rem', borderTop: '1px solid var(--border-color)' }}>
+          <div className="project-desc-expanded" style={{ marginBottom: 'auto', paddingTop: '1rem', borderTop: '1px solid var(--border-color)', display: 'flex', flexDirection: 'column' }}>
             {project.description.split('\n').map((line, index) => (
               <p key={index} style={{ marginBottom: line.trim() === '' ? '0' : '0.5rem', minHeight: line.trim() === '' ? '0.5rem' : 'auto', color: 'var(--text-muted)', fontSize: '0.9rem' }}>
                 {line}
@@ -58,7 +58,7 @@ function ProjectCard({ project }) {
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn btn-primary" 
-                style={{ marginTop: '1rem', marginBottom: '0.5rem', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', width: 'max-content', padding: '0.5rem 1rem', fontSize: '0.9rem' }}
+                style={{ marginTop: '1rem', marginBottom: '1.5rem', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '0.5rem 1rem', fontSize: '0.9rem', alignSelf: 'flex-start' }}
               >
                 <ExternalLink size={16} /> Acessar Versão Demo
               </a>
