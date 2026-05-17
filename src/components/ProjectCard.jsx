@@ -31,6 +31,31 @@ function ProjectCard({ project }) {
           {project.shortDescription}
         </p>
 
+        {(project.demoUrl || project.videoUrl) && (
+          <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1.5rem', flexWrap: 'wrap' }}>
+            {project.demoUrl && (
+              <a 
+                href={project.demoUrl} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="btn btn-primary" 
+                style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '0.5rem 1rem', fontSize: '0.9rem' }}
+              >
+                <ExternalLink size={16} /> Acessar Versão Demo
+              </a>
+            )}
+            {project.videoUrl && (
+              <button 
+                onClick={() => setIsModalOpen(true)}
+                className="btn btn-primary" 
+                style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '0.5rem 1rem', fontSize: '0.9rem', border: 'none', cursor: 'pointer' }}
+              >
+                <Play size={16} /> Assistir Demonstração
+              </button>
+            )}
+          </div>
+        )}
+
         <button 
           type="button"
           className="btn-expand" 
@@ -51,18 +76,6 @@ function ProjectCard({ project }) {
                 {line}
               </p>
             ))}
-            
-            {project.demoUrl && (
-              <a 
-                href={project.demoUrl} 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="btn btn-primary" 
-                style={{ marginTop: '1rem', marginBottom: '1.5rem', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '0.5rem 1rem', fontSize: '0.9rem', alignSelf: 'flex-start' }}
-              >
-                <ExternalLink size={16} /> Acessar Versão Demo
-              </a>
-            )}
           </div>
         )}
         
