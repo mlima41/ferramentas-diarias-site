@@ -106,7 +106,7 @@ function PcpSystem() {
               <div className="cta-credentials">
                 <Info size={16} />
                 <span>
-                  <strong>Acesse a demonstração:</strong> Login: <code>Marcelo</code> | Senha: <code>147258</code>
+                  <strong>Quer testar o sistema?</strong> Crie sua conta de demonstração gratuita clicando em <strong>"Solicitar Demonstração (Teste Grátis)"</strong> na tela de login.
                 </span>
               </div>
               <div className="hero-actions">
@@ -147,7 +147,7 @@ function PcpSystem() {
       <div className="demo-ribbon">
         <div className="container ribbon-content">
           <ShieldAlert size={20} />
-          <span>Quer testar as funcionalidades? Use as credenciais de demonstração: <strong>Login: Marcelo / Senha: 147258</strong> no botão de acesso rápido!</span>
+          <span>Quer testar as funcionalidades? Crie sua conta de demonstração gratuita na tela de login clicando em <strong>"Solicitar Demonstração"</strong>!</span>
         </div>
       </div>
 
