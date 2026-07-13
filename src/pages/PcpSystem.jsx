@@ -61,29 +61,14 @@ function PcpSystem() {
 
   const galleryItems = [
     {
-      title: "Cadastro e Engenharia",
-      desc: "Estruturação detalhada de itens, matérias-primas e produtos acabados com árvore de estrutura (BOM).",
-      img: "/pcp-system/imagem1.png"
+      title: "Visão Geral do ERP",
+      desc: "Interface principal integrada reunindo controles operacionais e fluxos industriais de ponta a ponta.",
+      img: "/pcp-system/imagem1.jpg"
     },
     {
-      title: "Planejamento (MRP)",
-      desc: "Módulo inteligente para cálculo automático das necessidades de compras e ordens de fabricação.",
-      img: "/pcp-system/imagem2.png"
-    },
-    {
-      title: "Ordens de Produção",
-      desc: "Gestão do chão de fábrica, emissão de ordens, controle de status e apontamentos operacionais.",
-      img: "/pcp-system/imagem3.png"
-    },
-    {
-      title: "Movimentações de Estoque",
-      desc: "Rastreabilidade completa de entradas, saídas, transferências e controle rígido de lotes industriais.",
-      img: "/pcp-system/imagem4.png"
-    },
-    {
-      title: "Indicadores & KPIs",
-      desc: "Painel completo de análise com OEE, produtividade, controle de perdas e gráficos interativos.",
-      img: "/pcp-system/imagem5.png"
+      title: "Planejamento e Acompanhamento",
+      desc: "Painel intuitivo de acompanhamento dos status das ordens de produção, estoques e vendas.",
+      img: "/pcp-system/imagem2.jpg"
     }
   ];
 
@@ -131,7 +116,7 @@ function PcpSystem() {
                 src="/pcp-system/video1.mp4" 
                 controls 
                 className="video-player"
-                poster="/pcp-system/imagem1.png"
+                poster="/pcp-system/imagem1.jpg"
               />
               <div className="video-overlay">
                 <p>Fluxo de Integração em Ação</p>
@@ -269,7 +254,7 @@ function PcpSystem() {
                   src="/pcp-system/video2.mp4" 
                   controls 
                   className="video-player"
-                  poster="/pcp-system/imagem5.png"
+                  poster="/pcp-system/imagem2.jpg"
                 />
               </div>
             </div>
