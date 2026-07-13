@@ -118,9 +118,6 @@ function PcpSystem() {
                 className="video-player"
                 poster="/pcp-system/imagem1.jpg"
               />
-              <div className="video-overlay">
-                <p>Fluxo de Integração em Ação</p>
-              </div>
             </div>
           </div>
         </div>
